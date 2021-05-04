@@ -26,13 +26,13 @@ class App extends Component {
         //     })
         //     .catch(console.log)
 
-        fetch('http://34.116.200.62/a')
+        fetch('http://service-a.kubergang.com/a')
             .then(res => res.text())
             .then((data) => {
                 this.setState({ respA: data })
             })
             .catch(console.log)
-        fetch('http://34.116.200.62/ab')
+        fetch('http://service-a.kubergang.com/ab')
             .then(res => res.text())
             .then((data) => {
                 this.setState({ respAB: data })
@@ -43,7 +43,7 @@ class App extends Component {
     render(){
         return <div className="App">
             <header className="App-header">
-                4.0.0
+                5.0.0
                 <img src={logo} className="App-logo" alt="logo" />
 
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/2tLp-7ZwDz0?autoplay=1&start=28" title="YouTube video player"
