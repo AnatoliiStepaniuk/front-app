@@ -50,7 +50,7 @@ class App extends Component {
                         frameBorder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                         allowFullScreen></iframe>
-                {/**/}
+
                 <h2>What's Up, Thug?</h2>
 
                 <h1>{this.state.respA}</h1>
