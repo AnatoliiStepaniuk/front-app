@@ -26,13 +26,13 @@ class App extends Component {
         //     })
         //     .catch(console.log)
 
-        fetch('http://service-a/a')
+        fetch('http://34.116.200.62/a')
             .then(res => res.text())
             .then((data) => {
                 this.setState({ respA: data })
             })
             .catch(console.log)
-        fetch('http://service-a/ab')
+        fetch('http://34.116.200.62/ab')
             .then(res => res.text())
             .then((data) => {
                 this.setState({ respAB: data })
@@ -43,7 +43,7 @@ class App extends Component {
     render(){
         return <div className="App">
             <header className="App-header">
-                2.0.0
+                2.0.1
                 <img src={logo} className="App-logo" alt="logo" />
 
                 {/*<iframe width="560" height="315" src="https://www.youtube.com/embed/2tLp-7ZwDz0?autoplay=1&start=28" title="YouTube video player"*/}
