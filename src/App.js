@@ -43,7 +43,7 @@ class App extends Component {
     render(){
         return <div className="App">
             <header className="App-header">
-                2.0.1
+                3.0.0
                 <img src={logo} className="App-logo" alt="logo" />
 
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/2tLp-7ZwDz0?autoplay=1&start=28" title="YouTube video player"
