@@ -13,7 +13,7 @@ class App extends Component {
     }
 
     componentDidMount() {
-        document.title = "The Kuber Gang 🔫 😎 🔪"
+        document.title = "The Kuber Gang 🔫 😎 🔪";
         // Promise.all([
         //     fetch('http://localhost:8081/a'),
         //     fetch('http://localhost:8081/ab')
@@ -43,15 +43,13 @@ class App extends Component {
     render(){
         return <div className="App">
             <header className="App-header">
-                5.1.0
+                6.0.0
                 <img src={logo} className="App-logo" alt="logo" />
 
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/2tLp-7ZwDz0?autoplay=1&start=28" title="YouTube video player"
                         frameBorder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                         allowFullScreen></iframe>
-
-                <h2>What's Up, Thug?</h2>
 
                 <h2>{this.state.respA}</h2>
                 <h2>{this.state.respAB}</h2>
